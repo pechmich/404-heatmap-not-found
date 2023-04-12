@@ -15,8 +15,6 @@ for x in range(img.width):
         # Set the blue channel value to the original grayscale value
         blue_img.putpixel((x, y), (0, 0, b))
 
-        # Alternatively, you can set the blue channel value to a fixed value, e.g. 128
-        # blue_img.putpixel((x, y), (0, 0, 128))
 
 # Save the new image as a PNG file
 blue_img.save('bluescale.png')

@@ -1,6 +1,5 @@
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
 
 filename = 'rectangles.txt'
 
@@ -17,6 +16,9 @@ with open(filename, 'r') as f:
 # Create an empty image with the same dimensions as the heatmap
 heatmap = np.zeros((720, 1280), dtype=np.float32)
 
+# rectagle is a tuple of 4 integers: x1, y1, x2, y2
+# x1, y1 is the left bottom corner of the rectangle
+# x2, y2 is the right top corner of the rectangle
 for rect in rectangles:
     x1, y1, x2, y2 = rect
     # Add 1 to each pixel in the rectangle
