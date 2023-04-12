@@ -4,7 +4,12 @@ This repository contains scripts that create heatmap from output of previous rep
 
 There is also **heatmap_script.py** script, which runs all three of the previous scripts in the correct order.
 
-*Output example:*
+### Necessary modules for python:
+- numpy
+- cv2 (OpenCV)
+- Image from PIL (Pillow)
+
+### Output example:
 ![heatmap](https://user-images.githubusercontent.com/105096216/231484151-c8f60af2-0efd-40cc-a3d8-19c769d09f0c.png)
 *heatmap.png*
 ![bluescale](https://user-images.githubusercontent.com/105096216/231484352-3da65f6b-a637-4419-bd56-fbf0823a5fed.png)
