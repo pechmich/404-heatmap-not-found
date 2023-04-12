@@ -2,7 +2,10 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-filename = 'rectangles_3_1k.txt'
+filename = 'rectangles_y2.txt'
+
+height = 720
+width = 1280
 
 # read rectangles from input file
 rectangles = []
@@ -12,7 +15,7 @@ with open(filename, 'r') as f:
         rectangles.append(rect)
 
 # Create an empty image with the same dimensions as the heatmap
-heatmap = np.zeros((300, 300), dtype=np.float32)
+heatmap = np.zeros((720, 1280), dtype=np.float32)
 
 for rect in rectangles:
     x1, y1, x2, y2 = rect
