@@ -8,8 +8,6 @@ rectangles = np.random.randint(0, 300, size=(100, 4))
 # Ensure that the left-bottom points are less than the right-upper points
 rectangles[:, 2:] = np.maximum(rectangles[:, :2], rectangles[:, 2:])
 
-print(rectangles)
-
 # Create an empty image with the same dimensions as the heatmap
 heatmap = np.zeros((300, 300), dtype=np.float32)
 
@@ -32,3 +30,6 @@ ax.set_ylabel("Y-axis")
 
 # Display the plot
 plt.show()
+
+# Save the plot to a file
+fig.savefig("heatmap.png")
