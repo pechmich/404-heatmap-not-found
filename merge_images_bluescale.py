@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image
 
-photo = 'photo2.png'
+photo = 'photo.png'
 heatmap = 'bluescale.png'
 
 # Load the background and foreground files

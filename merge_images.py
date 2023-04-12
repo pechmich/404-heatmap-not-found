@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Load the background and foreground images
-photo = Image.open("photo2.png")
+photo = Image.open("photo.png")
 heatmap = Image.open("heatmap.png")
 
 # Resize the foreground image to match the size of the background image

@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-filename = 'rectangles_y2.txt'
+filename = 'rectangles.txt'
 
 height = 720
 width = 1280
