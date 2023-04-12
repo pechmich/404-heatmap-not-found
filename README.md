@@ -1,4 +1,4 @@
-# 404: heatmap not found
+# 404: Heatmap Not Found
 ## UnIT project: Error 404: Team Name Not Found
 This repository contains scripts that create heatmap from output of previous repository being **rectangles.txt** and **photo.png**. The script **heatmap.py** calculates simple grayscale heatmap from rectangles.txt and puts it into the heatmap.png. The following script is **bluescale.py**, which takes heatmap.png and changes it from shades of gray to shades of blue. In the end, **merge_images_bluescale.py** puts the bluescale heatmap from bluescale.png onto the blue channel of photo.png and exports it to **merged_image_bluescale.png**.
 
